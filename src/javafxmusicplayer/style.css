@@ -1,0 +1,110 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30 Apr, 2018, 12:57:43 PM
+    Author     : kiran
+*/
+
+.button{
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.button:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(255,255,255,0.4) , 8, 0.8 , 0.8 , 1.8 );
+    /*-fx-effect: dropshadow( one-pass-box , rgba(0,0,0,0.8) , 0, 0.0 , 0 , 1);*/
+      /*-fx-background-color: linear-gradient(#2A5058, #61a2b1);*/
+      -fx-cursor: hand;
+}
+
+#backwardBtn{
+    -fx-background-image:url("../Images/left-arrow.png"); 
+    -fx-background-size: 64;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+#playBtn{
+    -fx-background-image:url("../Images/play.png"); 
+    -fx-background-size:64;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#pauseBtn{
+    -fx-background-image:url("../Images/pause.png"); 
+    -fx-background-size:64;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#forwardBtn{
+    -fx-background-image:url("../Images/right-arrow.png"); 
+    -fx-background-size:64;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#main{
+    -fx-background-image:url("../Images/music-player.png"); 
+    -fx-background-size:256;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#anchorpane{
+     -fx-background-color:#5b696a;
+          /*-fx-border-color:black;*/
+}
+#closeBtn{
+    -fx-background-image:url("../Images/error.png"); 
+    -fx-background-size:32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#addBtn{
+    -fx-background-image:url("../Images/add.png"); 
+    -fx-background-size:32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#speakerBtn{
+    -fx-background-image:url("../Images/speaker.png"); 
+    -fx-background-size:32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+#mediaView{
+     -fx-background-color: transparent;
+}
+#speakerBtn:pressed, #speakerBtn:default:hover:pressed {
+  -fx-background-color:red;
+  -fx-text-fill: #1d1d1d;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color:white;
+  -fx-text-fill: #1d1d1d;
+}
+#gridpane{
+    /*-fx-background-color:#000000;*/
+}
+#seperator{
+    -fx-background-color:#00556C;
+}
+#stackpane{
+      -fx-background-color:#485759;
+}
+#minimizeBtn{
+     -fx-background-image:url("../Images/minimize.png"); 
+    -fx-background-size:32;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    
+}
+
+
